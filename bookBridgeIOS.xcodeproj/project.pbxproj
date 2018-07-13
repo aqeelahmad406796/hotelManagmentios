@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		613C2A7F2093BFE3001F115A /* UHotelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613C2A7E2093BFE3001F115A /* UHotelVC.swift */; };
+		613C2A832093E306001F115A /* UEditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613C2A822093E306001F115A /* UEditProfileVC.swift */; };
+		616FF99C208EFD7E00A32D91 /* UserRoomsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616FF99B208EFD7E00A32D91 /* UserRoomsVC.swift */; };
+		616FF99E208EFE7A00A32D91 /* UserExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616FF99D208EFE7900A32D91 /* UserExtension.swift */; };
+		6192FC2D2094ABE0001A2DE2 /* AllUsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6192FC2C2094ABE0001A2DE2 /* AllUsersVC.swift */; };
+		61A8F06B2094E919009EEE78 /* AHotelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A8F06A2094E919009EEE78 /* AHotelVC.swift */; };
+		61A8F06D2095B1E4009EEE78 /* AEditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A8F06C2095B1E4009EEE78 /* AEditProfileVC.swift */; };
+		61C8CD3A208F09F400498FD5 /* URoomDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C8CD39208F09F400498FD5 /* URoomDetailVC.swift */; };
+		61EBF05F2095ED81007AFB6B /* GoogleSignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EBF05E2095ED81007AFB6B /* GoogleSignUpVC.swift */; };
+		61FBF0E1208E0F1A00088B02 /* AddRoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FBF0E0208E0F1A00088B02 /* AddRoomVC.swift */; };
+		816F6438D49BC7FA096CC6AD /* Pods_bookBridgeIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF80DD487C820DCCAEA42EB /* Pods_bookBridgeIOS.framework */; };
+		A024080120509B33005051D8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A024080020509B32005051D8 /* GoogleService-Info.plist */; };
+		A04D20CB2035619700CB590C /* FindPassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04D20CA2035619700CB590C /* FindPassVC.swift */; };
+		A04D20CE20356F8E00CB590C /* CreateProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04D20CD20356F8E00CB590C /* CreateProfileVC.swift */; };
+		A04D20D2203583D200CB590C /* ImageTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04D20D1203583D200CB590C /* ImageTextField.swift */; };
+		A04D20D82035B32E00CB590C /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04D20D72035B32E00CB590C /* SplashVC.swift */; };
+		A04D20DC2035BCBA00CB590C /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04D20DB2035BCB900CB590C /* GlobalVariables.swift */; };
+		A04E9B802052B600005F91BD /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04E9B7F2052B600005F91BD /* Manager.swift */; };
+		A04E9B822052B679005F91BD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04E9B812052B679005F91BD /* Model.swift */; };
+		A04E9B842052F091005F91BD /* AdminExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04E9B832052F091005F91BD /* AdminExtensions.swift */; };
+		A04E9B862053D424005F91BD /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04E9B852053D424005F91BD /* GlobalFunctions.swift */; };
+		A04E9B882053E3D6005F91BD /* Admin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04E9B872053E3D6005F91BD /* Admin.storyboard */; };
+		A04E9B8A2053E74F005F91BD /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04E9B892053E74F005F91BD /* User.storyboard */; };
+		A04E9C032053F07D005F91BD /* RoomsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04E9C012053F07D005F91BD /* RoomsCVC.swift */; };
+		A04E9C042053F07D005F91BD /* RoomsCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A04E9C022053F07D005F91BD /* RoomsCVC.xib */; };
+		A04E9C062053FB3E005F91BD /* RoomsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04E9C052053FB3E005F91BD /* RoomsVC.swift */; };
+		A04E9C08205412AA005F91BD /* RoomDetaiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04E9C07205412AA005F91BD /* RoomDetaiVC.swift */; };
+		A04F764B203D911B0035C14B /* ButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04F764A203D911B0035C14B /* ButtonExt.swift */; };
+		A09FB4FA2032BD8900C37BF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09FB4F92032BD8900C37BF9 /* AppDelegate.swift */; };
+		A09FB4FF2032BD8900C37BF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09FB4FD2032BD8900C37BF9 /* Main.storyboard */; };
+		A09FB5012032BD8900C37BF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A09FB5002032BD8900C37BF9 /* Assets.xcassets */; };
+		A09FB5042032BD8900C37BF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09FB5022032BD8900C37BF9 /* LaunchScreen.storyboard */; };
+		A09FB50F2032C66800C37BF9 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09FB50E2032C66800C37BF9 /* MainVC.swift */; };
+		A09FB5112032E62300C37BF9 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09FB5102032E62300C37BF9 /* SignInVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		613C2A7E2093BFE3001F115A /* UHotelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UHotelVC.swift; sourceTree = "<group>"; };
+		613C2A822093E306001F115A /* UEditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UEditProfileVC.swift; sourceTree = "<group>"; };
+		616FF99B208EFD7E00A32D91 /* UserRoomsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRoomsVC.swift; sourceTree = "<group>"; };
+		616FF99D208EFE7900A32D91 /* UserExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserExtension.swift; sourceTree = "<group>"; };
+		6192FC2C2094ABE0001A2DE2 /* AllUsersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllUsersVC.swift; sourceTree = "<group>"; };
+		61A8F06A2094E919009EEE78 /* AHotelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHotelVC.swift; sourceTree = "<group>"; };
+		61A8F06C2095B1E4009EEE78 /* AEditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEditProfileVC.swift; sourceTree = "<group>"; };
+		61C8CD39208F09F400498FD5 /* URoomDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URoomDetailVC.swift; sourceTree = "<group>"; };
+		61EBF05E2095ED81007AFB6B /* GoogleSignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignUpVC.swift; sourceTree = "<group>"; };
+		61FBF0E0208E0F1A00088B02 /* AddRoomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRoomVC.swift; sourceTree = "<group>"; };
+		701482B167DDAC48855185BA /* Pods-bookBridgeIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bookBridgeIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-bookBridgeIOS/Pods-bookBridgeIOS.release.xcconfig"; sourceTree = "<group>"; };
+		7F459ADA92002ADD64E429FE /* Pods-bookBridgeIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bookBridgeIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bookBridgeIOS/Pods-bookBridgeIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A024080020509B32005051D8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A04D20CA2035619700CB590C /* FindPassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPassVC.swift; sourceTree = "<group>"; };
+		A04D20CD20356F8E00CB590C /* CreateProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileVC.swift; sourceTree = "<group>"; };
+		A04D20D1203583D200CB590C /* ImageTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTextField.swift; sourceTree = "<group>"; };
+		A04D20D72035B32E00CB590C /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		A04D20DB2035BCB900CB590C /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		A04E9B7F2052B600005F91BD /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		A04E9B812052B679005F91BD /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A04E9B832052F091005F91BD /* AdminExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminExtensions.swift; sourceTree = "<group>"; };
+		A04E9B852053D424005F91BD /* GlobalFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
+		A04E9B872053E3D6005F91BD /* Admin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Admin.storyboard; sourceTree = "<group>"; };
+		A04E9B892053E74F005F91BD /* User.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
+		A04E9C012053F07D005F91BD /* RoomsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RoomsCVC.swift; path = bookBridgeIOS/ViewControllers/Cell/RoomsCVC.swift; sourceTree = SOURCE_ROOT; };
+		A04E9C022053F07D005F91BD /* RoomsCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RoomsCVC.xib; path = bookBridgeIOS/ViewControllers/Cell/RoomsCVC.xib; sourceTree = SOURCE_ROOT; };
+		A04E9C052053FB3E005F91BD /* RoomsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsVC.swift; sourceTree = "<group>"; };
+		A04E9C07205412AA005F91BD /* RoomDetaiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetaiVC.swift; sourceTree = "<group>"; };
+		A04F764A203D911B0035C14B /* ButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExt.swift; sourceTree = "<group>"; };
+		A09FB4F62032BD8900C37BF9 /* bookBridgeIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bookBridgeIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A09FB4F92032BD8900C37BF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A09FB4FE2032BD8900C37BF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A09FB5002032BD8900C37BF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A09FB5032032BD8900C37BF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A09FB5052032BD8900C37BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A09FB50E2032C66800C37BF9 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		A09FB5102032E62300C37BF9 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		CFF80DD487C820DCCAEA42EB /* Pods_bookBridgeIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bookBridgeIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A09FB4F32032BD8900C37BF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816F6438D49BC7FA096CC6AD /* Pods_bookBridgeIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		616FF99A208EFD0600A32D91 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				616FF99B208EFD7E00A32D91 /* UserRoomsVC.swift */,
+				61C8CD39208F09F400498FD5 /* URoomDetailVC.swift */,
+				613C2A7E2093BFE3001F115A /* UHotelVC.swift */,
+				613C2A822093E306001F115A /* UEditProfileVC.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		98E845890ABDAA30322DCE27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F459ADA92002ADD64E429FE /* Pods-bookBridgeIOS.debug.xcconfig */,
+				701482B167DDAC48855185BA /* Pods-bookBridgeIOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A04D20D0203583C100CB590C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A04D20D1203583D200CB590C /* ImageTextField.swift */,
+				A04D20DB2035BCB900CB590C /* GlobalVariables.swift */,
+				A04F764A203D911B0035C14B /* ButtonExt.swift */,
+				A04E9B7F2052B600005F91BD /* Manager.swift */,
+				A04E9B812052B679005F91BD /* Model.swift */,
+				A04E9B832052F091005F91BD /* AdminExtensions.swift */,
+				616FF99D208EFE7900A32D91 /* UserExtension.swift */,
+				A04E9B852053D424005F91BD /* GlobalFunctions.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A04D20D52035B27200CB590C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A09FB4FD2032BD8900C37BF9 /* Main.storyboard */,
+				A04E9B872053E3D6005F91BD /* Admin.storyboard */,
+				A04E9B892053E74F005F91BD /* User.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A04D20D62035B2F300CB590C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A09FB50E2032C66800C37BF9 /* MainVC.swift */,
+				A09FB5102032E62300C37BF9 /* SignInVC.swift */,
+				A04D20CA2035619700CB590C /* FindPassVC.swift */,
+				A04D20CD20356F8E00CB590C /* CreateProfileVC.swift */,
+				A04D20D72035B32E00CB590C /* SplashVC.swift */,
+				61EBF05E2095ED81007AFB6B /* GoogleSignUpVC.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A04E9BFF2053F019005F91BD /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				A04E9C052053FB3E005F91BD /* RoomsVC.swift */,
+				A04E9C07205412AA005F91BD /* RoomDetaiVC.swift */,
+				61FBF0E0208E0F1A00088B02 /* AddRoomVC.swift */,
+				6192FC2C2094ABE0001A2DE2 /* AllUsersVC.swift */,
+				61A8F06A2094E919009EEE78 /* AHotelVC.swift */,
+				61A8F06C2095B1E4009EEE78 /* AEditProfileVC.swift */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		A04E9C002053F022005F91BD /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A04E9C012053F07D005F91BD /* RoomsCVC.swift */,
+				A04E9C022053F07D005F91BD /* RoomsCVC.xib */,
+			);
+			name = Cell;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		A09FB4ED2032BD8800C37BF9 = {
+			isa = PBXGroup;
+			children = (
+				A09FB4F82032BD8900C37BF9 /* bookBridgeIOS */,
+				A09FB4F72032BD8900C37BF9 /* Products */,
+				98E845890ABDAA30322DCE27 /* Pods */,
+				D86CEF29ABB8280736E48427 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A09FB4F72032BD8900C37BF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A09FB4F62032BD8900C37BF9 /* bookBridgeIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A09FB4F82032BD8900C37BF9 /* bookBridgeIOS */ = {
+			isa = PBXGroup;
+			children = (
+				A09FB4F92032BD8900C37BF9 /* AppDelegate.swift */,
+				A09FB5002032BD8900C37BF9 /* Assets.xcassets */,
+				A09FB5052032BD8900C37BF9 /* Info.plist */,
+				A024080020509B32005051D8 /* GoogleService-Info.plist */,
+				A09FB5022032BD8900C37BF9 /* LaunchScreen.storyboard */,
+				A09FB50D2032C5E000C37BF9 /* ViewControllers */,
+				A04D20D52035B27200CB590C /* Storyboards */,
+				A04D20D0203583C100CB590C /* Classes */,
+			);
+			path = bookBridgeIOS;
+			sourceTree = "<group>";
+		};
+		A09FB50D2032C5E000C37BF9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A04E9C002053F022005F91BD /* Cell */,
+				A04D20D62035B2F300CB590C /* Main */,
+				A04E9BFF2053F019005F91BD /* Admin */,
+				616FF99A208EFD0600A32D91 /* User */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D86CEF29ABB8280736E48427 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFF80DD487C820DCCAEA42EB /* Pods_bookBridgeIOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A09FB4F52032BD8900C37BF9 /* bookBridgeIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A09FB5082032BD8900C37BF9 /* Build configuration list for PBXNativeTarget "bookBridgeIOS" */;
+			buildPhases = (
+				23FED753EC768BB0B1775755 /* [CP] Check Pods Manifest.lock */,
+				A09FB4F22032BD8900C37BF9 /* Sources */,
+				A09FB4F32032BD8900C37BF9 /* Frameworks */,
+				A09FB4F42032BD8900C37BF9 /* Resources */,
+				D7391768DF5C4BE91C3C701D /* [CP] Embed Pods Frameworks */,
+				55F1903C60ACFCCF7ADCEC27 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bookBridgeIOS;
+			productName = bookBridgeIOS;
+			productReference = A09FB4F62032BD8900C37BF9 /* bookBridgeIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A09FB4EE2032BD8800C37BF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Aqeel;
+				TargetAttributes = {
+					A09FB4F52032BD8900C37BF9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A09FB4F12032BD8800C37BF9 /* Build configuration list for PBXProject "bookBridgeIOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A09FB4ED2032BD8800C37BF9;
+			productRefGroup = A09FB4F72032BD8900C37BF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A09FB4F52032BD8900C37BF9 /* bookBridgeIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A09FB4F42032BD8900C37BF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09FB5042032BD8900C37BF9 /* LaunchScreen.storyboard in Resources */,
+				A04E9B882053E3D6005F91BD /* Admin.storyboard in Resources */,
+				A09FB5012032BD8900C37BF9 /* Assets.xcassets in Resources */,
+				A024080120509B33005051D8 /* GoogleService-Info.plist in Resources */,
+				A09FB4FF2032BD8900C37BF9 /* Main.storyboard in Resources */,
+				A04E9C042053F07D005F91BD /* RoomsCVC.xib in Resources */,
+				A04E9B8A2053E74F005F91BD /* User.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23FED753EC768BB0B1775755 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bookBridgeIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55F1903C60ACFCCF7ADCEC27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-bookBridgeIOS/Pods-bookBridgeIOS-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bookBridgeIOS/Pods-bookBridgeIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7391768DF5C4BE91C3C701D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-bookBridgeIOS/Pods-bookBridgeIOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bookBridgeIOS/Pods-bookBridgeIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A09FB4F22032BD8900C37BF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A8F06D2095B1E4009EEE78 /* AEditProfileVC.swift in Sources */,
+				A04D20CE20356F8E00CB590C /* CreateProfileVC.swift in Sources */,
+				A04E9C062053FB3E005F91BD /* RoomsVC.swift in Sources */,
+				A04D20D2203583D200CB590C /* ImageTextField.swift in Sources */,
+				A04E9B822052B679005F91BD /* Model.swift in Sources */,
+				A04D20CB2035619700CB590C /* FindPassVC.swift in Sources */,
+				613C2A832093E306001F115A /* UEditProfileVC.swift in Sources */,
+				A04D20DC2035BCBA00CB590C /* GlobalVariables.swift in Sources */,
+				613C2A7F2093BFE3001F115A /* UHotelVC.swift in Sources */,
+				A04E9C032053F07D005F91BD /* RoomsCVC.swift in Sources */,
+				A09FB4FA2032BD8900C37BF9 /* AppDelegate.swift in Sources */,
+				616FF99C208EFD7E00A32D91 /* UserRoomsVC.swift in Sources */,
+				A09FB50F2032C66800C37BF9 /* MainVC.swift in Sources */,
+				61C8CD3A208F09F400498FD5 /* URoomDetailVC.swift in Sources */,
+				A04E9C08205412AA005F91BD /* RoomDetaiVC.swift in Sources */,
+				A04E9B842052F091005F91BD /* AdminExtensions.swift in Sources */,
+				61A8F06B2094E919009EEE78 /* AHotelVC.swift in Sources */,
+				A04D20D82035B32E00CB590C /* SplashVC.swift in Sources */,
+				A04E9B802052B600005F91BD /* Manager.swift in Sources */,
+				A09FB5112032E62300C37BF9 /* SignInVC.swift in Sources */,
+				6192FC2D2094ABE0001A2DE2 /* AllUsersVC.swift in Sources */,
+				61FBF0E1208E0F1A00088B02 /* AddRoomVC.swift in Sources */,
+				A04F764B203D911B0035C14B /* ButtonExt.swift in Sources */,
+				616FF99E208EFE7A00A32D91 /* UserExtension.swift in Sources */,
+				A04E9B862053D424005F91BD /* GlobalFunctions.swift in Sources */,
+				61EBF05F2095ED81007AFB6B /* GoogleSignUpVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A09FB4FD2032BD8900C37BF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A09FB4FE2032BD8900C37BF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A09FB5022032BD8900C37BF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A09FB5032032BD8900C37BF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A09FB5062032BD8900C37BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A09FB5072032BD8900C37BF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A09FB5092032BD8900C37BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F459ADA92002ADD64E429FE /* Pods-bookBridgeIOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BY9PCCN9Y;
+				INFOPLIST_FILE = bookBridgeIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aqeel.hotelManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A09FB50A2032BD8900C37BF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 701482B167DDAC48855185BA /* Pods-bookBridgeIOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BY9PCCN9Y;
+				INFOPLIST_FILE = bookBridgeIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aqeel.hotelManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A09FB4F12032BD8800C37BF9 /* Build configuration list for PBXProject "bookBridgeIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A09FB5062032BD8900C37BF9 /* Debug */,
+				A09FB5072032BD8900C37BF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A09FB5082032BD8900C37BF9 /* Build configuration list for PBXNativeTarget "bookBridgeIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A09FB5092032BD8900C37BF9 /* Debug */,
+				A09FB50A2032BD8900C37BF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A09FB4EE2032BD8800C37BF9 /* Project object */;
+}

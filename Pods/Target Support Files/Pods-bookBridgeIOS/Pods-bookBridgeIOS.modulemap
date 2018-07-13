@@ -1,0 +1,6 @@
+framework module Pods_bookBridgeIOS {
+  umbrella header "Pods-bookBridgeIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
